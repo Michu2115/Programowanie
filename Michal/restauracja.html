@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Restauracja wszystkie smaki</title>
+        <link rel="stylesheet" href="styl1.css">
+    </head>
+    <body>
+        <div class="baner">
+             <h1>Witamy w restauracji "Wszystkie Smaki"</h1>
+            </div>
+        <div class="lewy">
+             <img src="menu.JPG" alt="Nasze danie">
+            </div>
+        <div class="prawy">
+            <h4>U nas dobrze zjesz!</h4>
+             <ol>
+             <li>Obiad za 40zł</li>
+             <li>Przekąski od 10zł</li>
+             <li>Kolacje od 20zł</li>
+            </ol>
+        </div>
+        <div class="dolny">
+            <h2>Zarezerwuj stolik on-line</h2>
+            <form action="rezerwacja.php" method="post">
+                <label for="data">Data (format:rrrr-mm-dd)
+                </label><br><input type="date" name="data" id="data"><br>
+                <label for="osob">Ile osób</label><br><input type="number" name="osob" id="osob"><br>
+                <label for="telefon">Twój numer telefonu</label><br><input type="text" name="telefon" id="telefon"><br>
+                <input type="checkbox" name="zgoda" id="zgoda"><label for="zgoda">Zgadzam sie na przetwarzanie moich danych osobowych</label><br>
+                <input class="button" type="reset" value="WYCZYŚĆ">
+                <input class="button" type="submit" value="REZERWUJ">
+            </form>
+        </div>
+        <div class="stopka">
+            <p>Stronę internetową opracował:<span><i>Michał Stasik</i></span></p>
+        </div>
+    </body>
+</html>
